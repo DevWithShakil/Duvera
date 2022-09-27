@@ -4,6 +4,7 @@ import HomeContainer from "./HomeContainer";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import RowContainer from "./RowContainer";
 import { useStateValue } from "../context/StateProvider";
+import MenuContainer from "./MenuContainer";
 
 function MainContainer() {
   const [{ foodItems }, dispatch] = useStateValue();
@@ -22,7 +23,7 @@ function MainContainer() {
           <div className="hidden md:flex gap-3 items-center">
             <motion.div
               whileTap={{ scale: 0.75 }}
-              className="w-8 h-8 rounded-lg bg-orange-300 flex items-center justify-center hover: hover:bg-orange-500 cursor-pointer transition-all duration-100 ease-in-out hover:shadow-lg"
+              className="w-8 h-8 rounded-lg bg-orange-300 flex items-center justify-center hover: hover:bg-orange-500 cursor-pointer hover:shadow-lg"
               onClick={() => setScrollValue(-200)}
             >
               {" "}
@@ -44,7 +45,7 @@ function MainContainer() {
           data={foodItems?.filter((n) => n.category === "fruits")}
         />
       </section>
-      <section className="w-full my-6"></section>
+      <MenuContainer />
     </div>
   );
 }
