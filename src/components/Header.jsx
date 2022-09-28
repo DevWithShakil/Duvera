@@ -49,8 +49,8 @@ function Header() {
       {/* for desktop & tablet */}
       <div className="hidden md:flex h-full w-full items-center justify-between">
         <Link to={"/"} className="flex item-center gap-3">
-          <img src={Logo} className="w-8 object-cover" alt="Logo" />
-          <p className="text-headingColor text-2xl font-bold mt-2">Duvera</p>
+          <img src={Logo} className="w-14 object-cover" alt="Logo" />
+          {/* <p className="text-headingColor text-2xl font-bold mt-2"></p> */}
         </Link>
         <div className="flex items-center gap-8">
           <motion.ul
@@ -140,14 +140,14 @@ function Header() {
         </div>
 
         <Link to={"/"} className="flex item-center gap-3">
-          <img src={Logo} className="w-8 object-cover" alt="Logo" />
-          <p className="text-headingColor text-2xl font-bold mt-2">Duvera</p>
+          <img src={Logo} className="w-14 object-cover" alt="Logo" />
+          {/* <p className="text-headingColor text-2xl font-bold mt-2">Duvera</p> */}
         </Link>
 
         <div className="relative">
           <motion.img
             whileTap={{ scale: 0.6 }}
-            src={user ? user.photoURL : Avatar}
+            src={user ? user.photoUrl : Avatar}
             className="w-10 min-w-[40px] h-10 min-h-[40px] drop-shadow-xl rounded-full"
             alt="UserProfile"
             onClick={login}

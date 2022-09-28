@@ -7,11 +7,15 @@ import App from "./App"
 import { StateProvider } from "./context/StateProvider";
 import reducer from "./context/reducer";
 import { initialState } from "./context/initialState";
+import { MantineProvider } from "@mantine/core";
 
 ReactDOM.render(
     <Router>
         <StateProvider initialState={initialState} reducer={reducer}>
-            <App />
+            <MantineProvider withGlobalStyles withNormalizeCSS>
+                <App />
+            </MantineProvider>
         </StateProvider>
+
     </Router>,
     document.getElementById('root'));
