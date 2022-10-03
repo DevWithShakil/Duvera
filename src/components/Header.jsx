@@ -62,14 +62,15 @@ function Header() {
             <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
               Menu
             </li>
-            <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
-              About Us
-            </li>
+            
             <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
               Home
             </li>
             <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
               Service
+            </li>
+            <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
+              About Developer
             </li>
           </motion.ul>
           <div
@@ -173,14 +174,15 @@ function Header() {
                 <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 px-4 py-2">
                   Menu
                 </li>
-                <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 px-4 py-2">
-                  About Us
-                </li>
+                
                 <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 px-4 py-2">
                   Home
                 </li>
                 <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 px-4 py-2">
                   Service
+                </li>
+                <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 px-4 py-2">
+                  About Us
                 </li>
               </ul>
               <p

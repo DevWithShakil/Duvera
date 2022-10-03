@@ -1,6 +1,6 @@
-import I1 from "../images/i1.png";
-import C3 from "../images/c3.png";
-import F1 from "../images/f1.png";
+import ice1 from "../images/ice1.png";
+import bri1 from "../images/bri1.png";
+import fruit1 from "../images/fruit1.png";
 import Fi1 from "../images/fi1.png"
 
 export const heroData = [
@@ -9,21 +9,21 @@ export const heroData = [
         name: "Icecream",
         decp: "Chocolate & Vanilla",
         price: "100",
-        imgSrc: I1
+        imgSrc: ice1
     },
     {
         id: 2,
-        name: "Strawberries",
-        decp: "Fresh Strawberries",
+        name: "Grapefruit",
+        decp: "Fresh Grapefruit",
         price: "500",
-        imgSrc: F1
+        imgSrc: fruit1
     },
     {
         id: 3,
-        name: "Chicken Kebab",
-        decp: "Mixed Kebab Plate",
+        name: "Indian Cuisine",
+        decp: "Mixed Indian Cuisine",
         price: "400",
-        imgSrc: C3
+        imgSrc: bri1
     },
     {
         id: 4,
