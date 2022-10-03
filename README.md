@@ -2,4 +2,4 @@
 
 email: duverabot@gmail.com
 
-pss: duveranot123
+pss: duverabot123
