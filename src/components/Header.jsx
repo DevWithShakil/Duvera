@@ -69,7 +69,7 @@ function Header() {
             <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
               Service
             </li>
-            <li className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
+            <li a href= "/AboutDeveloper" className="text-base text-textColor hover:text-headingColor cursor-pointer duration-100 transition-all ease-in-out">
               About Developer
             </li>
           </motion.ul>
@@ -101,7 +101,7 @@ function Header() {
                 exit={{ opacity: 0, scale: 0.6 }}
                 className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
               >
-                {user && user.email === "m.shakilkhan720@gmail.com" && (
+                {user && user.email === "duverabot@gmail.com" && (
                   <Link to={"/createItem"}>
                     <p
                       className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
@@ -160,7 +160,7 @@ function Header() {
               exit={{ opacity: 0, scale: 0.6 }}
               className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
             >
-              {user && user.email === "m.shakilkhan720@gmail.com" && (
+              {user && user.email === "duverabot@gmail.com" && (
                 <Link to={"/createItem"}>
                   <p
                     className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
